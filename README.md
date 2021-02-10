@@ -24,7 +24,7 @@ As it turns out, the dual component of a dual number is the derivative of the fu
 
 ![tanh](https://github.com/BenTenmann/duopy/blob/main/dual_.png)
 
-As we can see, we get both the result for `tanh` and for its derivative in one go -- i.e. we compute the derivative of each function instantaneously. This makes adding and removing layers and swapping activation functions in neural networks very easy, as we do not need to formulate their derivatives by hand.
+As we can see, we get both the result for `tanh` and for its derivative in one go -- i.e. we compute the derivative of each function instantaneously. This makes adding and removing layers and swapping activation functions in neural networks very easy, as we do not need to re-formulate their derivatives by hand.
 
 
 ### Work in progress
