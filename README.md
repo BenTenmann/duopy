@@ -1,6 +1,6 @@
 # duopy
 ## Ditching Derivatives with duopy
-This is a work in progress for a `Python` module written in `C++`. It will provide users an efficient and accessible interface for working with dual numbers. Currently, the `C++` code runs and enables basic dual number arithmetic. (for a working example please use the `autograd.py` and the `math_.py` scripts; be aware of slow performance)
+This is a work in progress for a `Python` package written in `C` (`C++` deprecated). It will provide users an efficient and accessible interface for working with dual numbers. Currently, the `C` code runs and enables basic dual number arithmetic. (for a working example please use the `autograd.py` and the `math_.py` scripts in the `depr` directory; be aware of slow performance)
 
 **What are dual numbers?**
 Dual numbers are a creation of the *Autograd* world of machine learning. They are similar to complex numbers, in that they extend the number system by adding an orthogonal plane to the real number plane. This new plane is called the dual `e` (epsilon), where `e^2 = 0`. A dual number is thus a composite of a real part and a dual part and is written like so:
@@ -28,7 +28,7 @@ As we can see, we get both the result for `tanh` and for its derivative in one g
 
 
 ### Work in progress
- Missing: effective wrap for the `C++` code for `Python` interface. Currently exploring options: manual wrapping via `Python` API; `SWIG` wrapping; `pybind11` wrapping;
+ Missing: full dual number integration into the package; still some instabilities for some functions; working on expanding the function library of duopy.
  
 ![logo](https://github.com/BenTenmann/PyHMM/blob/main/outtadabox.png)
 
